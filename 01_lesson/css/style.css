@@ -1,11 +1,40 @@
+* {
+    margin: 4px;
+    padding: 1px;
+    font-family:'Times New Roman', Times, serif;
+}
+
 p {
     color: purple;
+    border: 1px solid black;
+}
+
+/*Since this is a span, we can also use this as "p span"*/
+.highlight {
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 body {
     font-size: 16px;
 }
 
+button, input, textarea, select {
+    font: inherit;
+}
+
 .gray {
     color: gray;
+}
+
+h1, h2 {
+    color: darkslategray;
+}
+
+h1 {
+    color: black;
+}
+
+#second {
+    font-style: italic;
 }
